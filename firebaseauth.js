@@ -3,10 +3,16 @@
  import {getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword} from "https://www.gstatic.com/firebasejs/10.11.1/firebase-auth.js";
  import{getFirestore, setDoc, doc} from "https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js"
  
- const firebaseConfig = {
- //YOUR COPIED FIREBASE PART SHOULD BE HERE
- //WATCH THIS VIDEO TO LEARN WHAT TO PUT HERE   https://youtu.be/_Xczf06n6x0
- };
+ 
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyDlzbgw-yiXXxfDc99DzHWF8_JR0nlXGx8",
+  authDomain: "megadrop-d7f9f.firebaseapp.com",
+  projectId: "megadrop-d7f9f",
+  storageBucket: "megadrop-d7f9f.firebasestorage.app",
+  messagingSenderId: "726965576147",
+  appId: "1:726965576147:web:c601f7db7e2a1e18f44f26"
+};
 
  // Initialize Firebase
  const app = initializeApp(firebaseConfig);
